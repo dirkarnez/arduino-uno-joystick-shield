@@ -7,7 +7,7 @@ SoftwareSerial ss(4, 7);
 
 void setup()
 {
-   Serial.begin(115200);
+   Serial.begin(38400);
    ss.begin(38400);
 }
 
